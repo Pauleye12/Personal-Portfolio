@@ -359,9 +359,11 @@ img {
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
+  transition: all .35s;
 }
 .button:hover {
   background-color: var(--first-color-alt);
+  transform: translateY(5px);
 }
 .button_icon {
   font-size: 1.25rem;
@@ -638,11 +640,15 @@ img {
 
 .services_content {
   position: relative;
-  background-color: var(--container-color);
+  background-color: var(--first-color-second);
+ 
   padding: 3.5rem 0.5rem 1.25rem 1.5rem;
-  border-radius: 0.25rem;
+  border-radius: 0.4rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.17);
   transition: 0.3s;
+}
+.services_content_div{
+  color: white !important;
 }
 
 .services_content:hover {
@@ -654,17 +660,20 @@ img {
   font-size: 1.5rem;
   color: var(--first-color);
   margin-bottom: var(--mb-1);
+  color: white;
 }
 
 .services_title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
   font-weight: var(--font-medium);
+  color: white;
 }
 
 .services_button {
   cursor: pointer;
   font-size: var(--small-font-size);
+  color: white;
 }
 
 .services_button:hover.button_icon {
@@ -1073,6 +1082,7 @@ img {
 
   .services_content {
     padding-right: 3.5rem;
+    
   }
 
   .project_img {
