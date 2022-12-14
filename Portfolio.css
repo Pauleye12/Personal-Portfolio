@@ -635,7 +635,9 @@ img {
 
 .services_container {
   gap: 1.5rem;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .services_content {
@@ -1261,7 +1263,7 @@ img {
   }
 
   .services_content {
-    padding: 5rem 0 2rem 2.5rem;
+    padding: 5rem 1rem 2rem 2.5rem;
   }
 
   .services_modal-content {
