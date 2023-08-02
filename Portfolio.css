@@ -45,7 +45,7 @@
   --mb-1: 1rem;
   --mb-1-5: 1.5rem;
   --mb-2: 2rem;
-  --mb-2-5: 2.5rem;
+  --mb-2-5: 1rem;
   --mb-3: 3rem;
 
   /* z index */
@@ -159,7 +159,7 @@ img {
 /* LAYOUT */
 
 .container {
-  max-width: 768px;
+  max-width: 900px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -197,6 +197,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 19px;
+  font-weight: 600;
 }
 .nav_logo,
 .nav_toggle {
@@ -235,9 +237,10 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
+
 }
 .nav_link:hover {
   color: var(--first-color-lighter);
@@ -274,9 +277,16 @@ img {
 }
 
 /* HOME */
-
+.home{
+  background-image: url("/images/heroImg-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  margin-top: 80px;
+}
 .home_container {
   gap: 1rem;
+  
 }
 
 .home_content {
@@ -359,7 +369,7 @@ img {
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
-  transition: all .35s;
+  transition: all 0.35s;
 }
 .button:hover {
   background-color: var(--first-color-alt);
@@ -403,11 +413,14 @@ img {
 
 /* ABOUT */
 
+/* .about_container{
+  align-content: start;
+} */
 .about_img {
   width: 200px;
   border-radius: 0.5rem;
   justify-self: center;
-  align-self: center;
+  /* align-self: center; */
 }
 
 .about_description {
@@ -417,8 +430,8 @@ img {
 
 .about_info {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: var(--mb-2-5);
+  justify-content: center;
+  margin-top: var(--mb-3);
 }
 
 .about_info-title {
@@ -511,7 +524,7 @@ img {
 }
 
 .skills_html {
-  width: 85%;
+  width: 90%;
 }
 
 .skills_css {
@@ -519,32 +532,51 @@ img {
 }
 
 .skills_js {
-  width: 50%;
+  width: 70%;
+}
+.skills_ts{
+  width:60%;
 }
 
 .skills_react {
-  width: 50%;
+  width: 79%;
 }
 .skills_tailwind {
   width: 70%;
 }
-
+.skills_next {
+  width: 70%;
+}
+.skills_bootstrap {
+  width: 60%;
+}
+.skills_git {
+  width: 76%;
+}
+.skills_node {
+  width: 50%;
+}
+.skills_mongo{
+  width: 50%;
+}
+.skills_firebase{
+  width:60%;
+}
+.skills_ether{
+  width:50%;
+}
 .skills_Technical-analysis {
   width: 84%;
 }
-
 .skills_Fundamental-analysis {
   width: 90%;
 }
-
 .skills_Price-action {
   width: 86%;
 }
-
 .skills_NFT {
   width: 74%;
 }
-
 .skills_close .skills_list {
   height: 0;
   overflow: hidden;
@@ -643,13 +675,13 @@ img {
 .services_content {
   position: relative;
   background-color: var(--first-color-second);
- 
+
   padding: 3.5rem 0.5rem 1.25rem 1.5rem;
   border-radius: 0.4rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.17);
   transition: 0.3s;
 }
-.services_content_div{
+.services_content_div {
   color: white !important;
 }
 
@@ -1084,7 +1116,6 @@ img {
 
   .services_content {
     padding-right: 3.5rem;
-    
   }
 
   .project_img {
@@ -1222,7 +1253,7 @@ img {
   }
 
   .about_container {
-    column-gap: 5rem;
+    column-gap: 3rem;
   }
 
   .about_img {
