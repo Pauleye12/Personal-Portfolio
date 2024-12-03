@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="Portfolio.css" />
     <title>Pauleye</title>
   </head>
-  <body>
+  <body class="dark-theme">
     <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav_logo">
@@ -68,7 +68,7 @@
 
         <div class="nav_btns">
           <!-- THEME CHANGE BUTTON -->
-          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <i class="uil uil-sun change-theme" id="theme-button"></i>
 
           <div class="nav_toggle" id="nav_toggle">
             <i class="uil uil-apps"></i>
@@ -142,8 +142,12 @@
         <span class="section_subtitle">My introduction</span>
 
         <div class="about_container container grid">
-          <img src="images/pauleye 1.jpg
-          " class="about_img" alt="" />
+          <img
+            src="images/pauleye 1.jpg
+          "
+            class="about_img"
+            alt=""
+          />
           <div class="about_data">
             <p class="about_description">
               I am a self-motivated and resilient Front-End Web Developer with
@@ -180,8 +184,8 @@
               </div> -->
               <div class="about_buttons">
                 <a
-                  download="pdf/Adeleye_Oreoluwa_Front_end_Developer.pdf"
-                  href="pdf/Adeleye_Oreoluwa_Front_end_Developer.pdf"
+                  download="pdf/OreoluwaPaul_Adeleye_CV_2_main.pdf"
+                  href="pdf/OreoluwaPaul_Adeleye_CV_2_main.pdf"
                   class="button button--flex"
                 >
                   Download CV<i class="uil uil-download-alt button_icon"></i>
@@ -517,14 +521,31 @@
 
             <!--==================== WORK ====================-->
             <div class="qualification_content" data-content id="work">
+              <!--==================== WORK 2 ====================-->
+              <div class="qualification_data">
+                <div></div>
+
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification_title">Technical Assistant</h3>
+                  <span class="qualification_subtitle">AIdotHub</span>
+                  <div class="qualification_calendar">
+                    <i class="uil uil-calendar-alt"></i> October 2024 till date
+                  </div>
+                </div>
+              </div>
               <!--==================== WORK 1 ====================-->
               <div class="qualification_data">
                 <div>
                   <h3 class="qualification_title">Frontend web developer</h3>
                   <span class="qualification_subtitle">Pallete Labs</span>
                   <div class="qualification_calendar">
-                    <i class="uil uil-calendar-alt"></i> Decemeber 2022 till
-                    date
+                    <i class="uil uil-calendar-alt"></i> Decemeber 2022 - June
+                    2024
                   </div>
                 </div>
 
@@ -544,7 +565,7 @@
                 </div>
 
                 <div>
-                  <Frontend class="qualification_title">Frontend lead and tutor</h3>
+                  <h3 class="qualification_title">Frontend lead and tutor</h3>
                   <span class="qualification_subtitle">RCCG DTCE</span>
                   <div class="qualification_calendar">
                     <i class="uil uil-calendar-alt"></i> August 2022 - September
@@ -579,12 +600,12 @@
                   <span class="qualification_line"></span>
                 </div>
                 <div>
-                  <h3 class="qualification_title">
-                    Frontend Lead
-                  </h3>
+                  <h3 class="qualification_title">Frontend Lead</h3>
                   <span class="qualification_subtitle">The Mafia</span>
                   <div class="qualification_calendar">
-                    <i class="uil uil-calendar-alt">october 2021 till November 2022</i> 
+                    <i class="uil uil-calendar-alt"
+                      >october 2021 till November 2022</i
+                    >
                   </div>
                 </div>
               </div>
@@ -594,10 +615,10 @@
                 <div>
                   <h3 class="qualification_title">Always Working</h3>
                   <span class="qualification_subtitle"
-                    >On a personal project </span
-                  >
+                    >On a personal project
+                  </span>
                   <div class="qualification_calendar">
-                    <i class="uil uil-calendar-alt">2021 till date</i> 
+                    <i class="uil uil-calendar-alt">2021 till date</i>
                   </div>
                 </div>
 
@@ -715,16 +736,18 @@
 
         <div class="portfolio_container container swiper">
           <div class="swiper-wrapper">
-               <!-- PORTFOLIO 1 -->
-           <div class="portfolio_content grid swiper-slide">
+            <!-- PORTFOLIO 1 -->
+            <div class="portfolio_content grid swiper-slide">
               <img src="images/GenesisDAO.jpg" alt="" class="portfolio_img" />
               <div class="portfolio_data">
                 <h3 class="portfolio_title">GenesisDAO</h3>
                 <p class="portfolio_description">
-                  A Landing page for a web3 that not only provides staking services but also lets you earn from your own crypto assets.
+                  A Landing page for a web3 that not only provides staking
+                  services but also lets you earn from your own crypto assets.
                 </p>
                 <p class="portfolio_description">
-                ReactJS, SASS and framer motion was used to implement the frontend
+                  ReactJS, SASS and framer motion was used to implement the
+                  frontend
                 </p>
                 <a
                   href="https://genesis-dao-blond.vercel.app/"
@@ -735,16 +758,19 @@
                 </a>
               </div>
             </div>
-              <!-- PORTFOLIO 1 -->
-           <div class="portfolio_content grid swiper-slide">
+            <!-- PORTFOLIO 1 -->
+            <div class="portfolio_content grid swiper-slide">
               <img src="images/corelaunch.jpg" alt="" class="portfolio_img" />
               <div class="portfolio_data">
                 <h3 class="portfolio_title">Core Launch</h3>
                 <p class="portfolio_description">
-                  Core launch is a web3 dapp that allows you to launch new tokens and trade them on the core network
+                  Core launch is a web3 dapp that allows you to launch new
+                  tokens and trade them on the core network
                 </p>
                 <p class="portfolio_description">
-                 NextJS, Typescript, tailwindCSS and framer-motion was used for the frontend implementation and WAGMI and web3 modal was used for the web3 and wallet integration and interaction.
+                  NextJS, Typescript, tailwindCSS and framer-motion was used for
+                  the frontend implementation and WAGMI and web3 modal was used
+                  for the web3 and wallet integration and interaction.
                 </p>
                 <a
                   href="https://moon-launch.netlify.app/"
@@ -756,17 +782,19 @@
               </div>
             </div>
             <!-- PORTFOLIO 1 -->
-           <div class="portfolio_content grid swiper-slide">
+            <div class="portfolio_content grid swiper-slide">
               <img src="images/movieeye.jpg" alt="" class="portfolio_img" />
               <div class="portfolio_data">
                 <h3 class="portfolio_title">Movieeye</h3>
                 <p class="portfolio_description">
-                  This is an entertainment app that displays movie and the details from TMDB api endpoints, features the search and bookmark feature.
+                  This is an entertainment app that displays movie and the
+                  details from TMDB api endpoints, features the search and
+                  bookmark feature.
                 </p>
                 <p class="portfolio_description">
-                  Built the frontend using ReactJS for the logic
-                  and API calls, React Router dom for routing and location
-                  monitoring, Tailwind CSS for styling, framer-motion for the animation.
+                  Built the frontend using ReactJS for the logic and API calls,
+                  React Router dom for routing and location monitoring, Tailwind
+                  CSS for styling, framer-motion for the animation.
                 </p>
                 <a
                   href="https://movieeye.netlify.app/"
@@ -779,17 +807,22 @@
             </div>
 
             <!-- PORTFOLIO 2 -->
-           <div class="portfolio_content grid swiper-slide">
-              <img src="images/analyticdashboard.jpeg" alt="" class="portfolio_img" />
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="images/analyticdashboard.jpeg"
+                alt=""
+                class="portfolio_img"
+              />
               <div class="portfolio_data">
                 <h3 class="portfolio_title">Analytical Dashboard</h3>
                 <p class="portfolio_description">
-                 An Analytical dashboard that displays user informations and analysis
+                  An Analytical dashboard that displays user informations and
+                  analysis
                 </p>
                 <p class="portfolio_description">
-                  Built the frontend using ReactJS for the logic
-                  and API calls, React Router dom for routing and location
-                  monitoring, Tailwind CSS for styling, framer-motion for the animation.
+                  Built the frontend using ReactJS for the logic and API calls,
+                  React Router dom for routing and location monitoring, Tailwind
+                  CSS for styling, framer-motion for the animation.
                 </p>
                 <a
                   href="https://pauleye-analytic-dashboard.vercel.app/"
@@ -800,7 +833,7 @@
                 </a>
               </div>
             </div>
- <!-- PORTFOLIO 3 -->
+            <!-- PORTFOLIO 3 -->
             <div class="portfolio_content grid swiper-slide">
               <img src="images/lendsqr.png" alt="" class="portfolio_img" />
               <div class="portfolio_data">
@@ -823,16 +856,25 @@
                 </a>
               </div>
             </div>
- <!-- PORTFOLIO 4 -->
+            <!-- PORTFOLIO 4 -->
             <div class="portfolio_content grid swiper-slide">
               <img src="images/fluidCoin.jpeg" alt="" class="portfolio_img" />
               <div class="portfolio_data">
                 <h3 class="portfolio_title">Fluidcoin Clone</h3>
                 <p class="portfolio_description">
-                 Recreated the fluidcoin website from scratch because i loved the UI and the animations and decided to try it out. Here is the <a href="https://fluidcoins.com/" target="_blank" rel="noopener noreferrer">Design reference</a>
+                  Recreated the fluidcoin website from scratch because i loved
+                  the UI and the animations and decided to try it out. Here is
+                  the
+                  <a
+                    href="https://fluidcoins.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Design reference</a
+                  >
                 </p>
                 <p class="portfolio_description">
-                  Built the frontend using React js, TailwndCSS for styling and Motion framer for the animations.
+                  Built the frontend using React js, TailwndCSS for styling and
+                  Motion framer for the animations.
                 </p>
                 <a
                   href="https://fluidcoinclone.netlify.app/"
@@ -843,7 +885,6 @@
                 </a>
               </div>
             </div>
-            
 
             <!-- PORTFOLIO 5 -->
             <div class="portfolio_content grid swiper-slide">
@@ -867,7 +908,7 @@
                 </a>
               </div>
             </div>
-              <!-- PORTFOLIO 6 -->
+            <!-- PORTFOLIO 6 -->
             <div class="portfolio_content grid swiper-slide">
               <img src="images/NFT_Mafia.jpeg" alt="" class="portfolio_img" />
               <div class="portfolio_data">
@@ -893,7 +934,7 @@
                 </a>
               </div>
             </div>
-          <!-- PORTFOLIO 7 -->
+            <!-- PORTFOLIO 7 -->
             <div class="portfolio_content grid swiper-slide">
               <img
                 src="images/comment-app.jpg"
@@ -921,7 +962,7 @@
                 </a>
               </div>
             </div>
-             <!-- PORTFOLIO 8 -->
+            <!-- PORTFOLIO 8 -->
             <div class="portfolio_content grid swiper-slide">
               <img src="images/boltMusic.jpeg" alt="" class="portfolio_img" />
               <div class="portfolio_data">
@@ -972,7 +1013,7 @@
                 </a>
               </div>
             </div>
-             <!-- PORTFOLIO 10 -->
+            <!-- PORTFOLIO 10 -->
             <div class="portfolio_content grid swiper-slide">
               <img
                 src="images/tricord-global.jpeg"
@@ -995,7 +1036,7 @@
                 </a>
               </div>
             </div>
-           <!-- PORTFOLIO 11 -->
+            <!-- PORTFOLIO 11 -->
             <div class="portfolio_content grid swiper-slide">
               <img
                 src="images/pinksale-landing-page.jpeg"
@@ -1017,8 +1058,6 @@
                 </a>
               </div>
             </div>
-
-            
 
             <!-- PORTFOLIO 8 -->
 
